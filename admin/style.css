@@ -1,0 +1,107 @@
+.container-fluid{
+    background-color:rgb(187, 187, 230);
+
+}
+.mycontent{
+    background-color: grey;
+    width: 90%;
+    margin: auto;
+    height: auto;
+    border-radius: 10px;
+    margin-top:5%;
+}
+.img{
+    width: 50%;
+    margin: auto;
+}
+ #post{
+    background-color: red;
+    height: 360px;
+ }
+ #post1{
+    background-color: rgb(0, 60, 255);
+    height: 360px;
+ }
+ .mycontent1{
+  background-color: grey;
+  width: 50%;
+  margin: auto;
+  height: auto;
+  border-radius: 10px;
+  margin-top:2%;
+}
+
+.forminput{
+  width: 60%;
+  height: 2.5em;
+  /* padding: auto; */
+}
+input,
+textarea {
+  width: 60%;
+  padding: 10px;
+  height: 8em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+.back{
+  background-color: lightblue;
+  float: right;
+}
+
+
+
+
+  
+
+
+@media screen and (max-width: 850px){
+    .img{
+        width: 70%;
+        margin-top: 20%;
+    }
+    .mycontent{
+        background-color: grey;
+        width: 90%;
+        margin: auto;
+        height: auto;
+        border-radius: 10px;
+        margin-top:15%;
+    }
+    .mycontent1{
+      background-color: grey;
+      width: 95%;
+      margin: auto;
+      height: 450px;
+      border-radius: 10px;
+      margin-top:20%;
+    }
+    input,
+   textarea {
+  width: 70%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+.forminput{
+  width: 70%;
+  height: 2.5em;
+  /* padding: auto; */
+}
+
+    
+   
+}

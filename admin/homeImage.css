@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: aquamarine;
+    
+}
+.container{
+    background-color: brown;
+    display: grid;
+    /* place-content: center; */
+    /* align-items: center; */
+    padding: 40px;
+    margin-top: 5%;
+    height: 400px;
+
+}
+.midcontainer{
+    background-color: gray;
+    padding: 30px;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 7px;
+  
+}
+#selectedimage{
+    width:50%;
+    height:50%;
+  } 
+
+  button{
+    padding: 10px;
+    background-color: ghostwhite;
+    border: none;
+    border-radius: 7px;
+
+  }
